@@ -80,7 +80,7 @@
     .projectDetails .project-title{
         padding:0 32px;
         padding-top: 9px;
-        font-size: 24px;
+        font-size: 20px;
         float:none;
     }
     .caption-title{
@@ -121,7 +121,21 @@
         height: 24px;
         width: auto;
     }
-
+    /*MAIL*/
+    .mail{
+        padding:0;
+        width: 100vw;
+        font-size:10px;
+        text-align: center;
+    }
+    .mail h1{
+        position: relative;
+        top:10rem;
+    }
+    /*ANIMATION*/
+    .menu:hover::before{
+        width:100%;
+    }
     
     /*FOOTER*/
     .footer{
