@@ -19,7 +19,7 @@ main{
 }
 .hy_logo{
     height: 100px;
-    width:90px;
+    width:auto;
     position:relative;
     top:20px;
 }
