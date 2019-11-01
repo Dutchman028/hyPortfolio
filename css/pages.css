@@ -57,23 +57,21 @@
 .box-list li{
     flex:0 0 25%;
     margin-bottom:10px;
-    
-
 }
 
 .box-list img{
-    border-radius: 3%;
-    box-shadow:0px 0px 5px #c0c0c0;
+    box-shadow:0px 0px 3px #c0c0c0;
     width: 200px;
     height: 200px;
     object-fit:contain;
-    
+    cursor: pointer;
     display:block;
     transition-duration: 0.3s;
 }
 
 
 .box-list img:hover{
+    box-shadow:0px 0px 15px #c0c0c0;
     cursor: pointer;
     transform: scale(1.1);
     transition-duration: 0.3s;
@@ -82,10 +80,12 @@
 
 .box-list .title{
     position: relative;
-    top:-20px;
+    top:-26px;
     left:10px;
     background-color:white;
-
+    opacity: 90%;
+    color:black;
+    border-radius: 3%;
 }
 
 .project-image{
@@ -104,11 +104,12 @@
 }
 
 .caption-title{
-    font-size: 37px;
+    font-size: 30px;
     overflow: hidden;
     padding-left:26px;
     padding-bottom: 10px;
 }
+
 .project-right{
         width:90%;
 }
@@ -135,18 +136,20 @@
 
 .caption{
     font-size:15px;
+    height: 210px;
+    width:431px;
 }
 
 .tool-title{
-    font-size: 37px;
+    font-size: 30px;
     overflow: hidden;
     padding-left:26px;
     display: block;
 }
 
 .tool{
-    font-size: 37px;
-    padding-left:100px;
+    font-size: 20px;
+    padding-left:32px;
     display: inline;
 }
 
