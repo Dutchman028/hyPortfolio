@@ -16,6 +16,7 @@ main{
     font-size:40px;
     position: relative;
     bottom:30px;
+    cursor: pointer;
 }
 .hy_logo{
     height: 100px;
