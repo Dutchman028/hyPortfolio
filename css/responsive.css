@@ -98,15 +98,17 @@
         padding:0 32px;
         margin:0px;
         font-size:11px;
+        width:auto;
+        height: auto;
     }
 
     .tool-title{
         padding:0 32px;
-        font-size:24px;
+        padding-top:16px;
+        font-size:18px;
+        word-wrap: break-word;
     }
     .tool-title p{
-        position: relative;
-        top:2px;
         font-size:13px;
     }
 
